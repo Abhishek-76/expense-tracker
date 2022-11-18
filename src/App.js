@@ -20,6 +20,8 @@ const App = () => {
     <div className="App">
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
+      Made with{" "}
+      <a href="https://abhishek-joy-boy-coder.vercel.app/"> AbhishekGautam</a>
     </div>
   );
 };
